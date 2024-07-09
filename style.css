@@ -1,0 +1,56 @@
+.logo {
+    max-width: 50px;
+    float: left;
+    margin: 0 15px 0 0;
+    position: relative;
+}
+
+header {
+    background-color: #7d0d0f;
+    padding: 10px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 22px;
+    margin: .7em 0 .3em 0;
+    display: inline-block;
+}
+
+p {
+  display: block;
+  margin: 0 auto;
+}
+
+#lyrics-content p {
+  text-align: left;
+}
+
+audio {
+  display: block;
+  margin: 0 auto;
+}
+
+#lyrics-box {
+  width: 25%;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid #000000;
+  padding: 30px;
+  font-family: Arial;
+  overflow: hidden;
+}
+
+#footer {
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-left:1px solid;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+#lyrics-content p.current {
+  font-weight: bold;
+  color: #7d0d0f;
+}
